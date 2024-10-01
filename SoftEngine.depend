@@ -1,0 +1,299 @@
+# depslib dependency file v1.0
+1724936878 source:d:\codeblocks\projects\game_cpp\softengine\src\core\engine.cpp
+	"Engine.h"
+	"Play.h"
+	"Input.h"
+	"Timer.h"
+	"Enemy.h"
+	"Camera.h"
+	"Warrior.h"
+	"MapParser.h"
+	"GameState.h"
+	"ObjectFactory.h"
+	"TextureManager.h"
+
+1724932442 d:\codeblocks\projects\game_cpp\softengine\src\core\engine.h
+	"SDL.h"
+	<vector>
+	"GameMap.h"
+	"SDL_image.h"
+	"GameState.h"
+	"GameObject.h"
+	"ImageLayer.h"
+
+1724931541 source:d:\codeblocks\projects\game_cpp\softengine\main.cpp
+	"Engine.h"
+	"Timer.h"
+
+1722161859 source:d:\codeblocks\projects\game_cpp\softengine\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+
+1722156716 d:\codeblocks\projects\game_cpp\softengine\graphics\texturemanager.h
+	<map>
+	<string>
+	"SDL.h"
+
+1722151733 d:\codeblocks\projects\game_cpp\softengine\src\physics\vector2d.h
+	<iostream>
+
+1722150849 source:d:\codeblocks\projects\game_cpp\softengine\src\physics\vector2d.cpp
+	"Vector2D.h"
+
+1723641699 source:d:\codeblocks\projects\game_cpp\softengine\src\characters\warrior.cpp
+	"Warrior.h"
+	"SDL.h"
+	"Input.h"
+	"Camera.h"
+	"Engine.h"
+	"ObjectFactory.h"
+	"TextureManager.h"
+	"CollisionHandler.h"
+
+1723548451 d:\codeblocks\projects\game_cpp\softengine\src\characters\warrior.h
+	"Collider.h"
+	"Vector2D.h"
+	"Character.h"
+	"SeqAnimation.h"
+	"SpriteAnimation.h"
+	"RigidBody.h"
+
+1722160916 d:\codeblocks\projects\game_cpp\softengine\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1723910139 d:\codeblocks\projects\game_cpp\softengine\src\object\gameobject.h
+	"SDL.h"
+	"IObject.h"
+	"Transform.h"
+	"Point.h"
+
+1722153215 d:\codeblocks\projects\game_cpp\softengine\src\object\iobject.h
+
+1722341123 d:\codeblocks\projects\game_cpp\softengine\src\physics\transform.h
+	"Vector2D.h"
+
+1723549223 d:\codeblocks\projects\game_cpp\softengine\src\animation\animation.h
+
+1723477118 source:d:\codeblocks\projects\game_cpp\softengine\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1723198973 d:\codeblocks\projects\game_cpp\softengine\src\physics\rigidbody.h
+	"Vector2D.h"
+
+1722344647 d:\codeblocks\projects\game_cpp\softengine\src\inputs\input.h
+	"SDL.h"
+
+1723895507 source:d:\codeblocks\projects\game_cpp\softengine\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1722357454 d:\codeblocks\projects\game_cpp\softengine\src\clock\timer.h
+
+1724654085 source:d:\codeblocks\projects\game_cpp\softengine\src\clock\timer.cpp
+	"Timer.h"
+	"SDL.h"
+
+1724936443 source:d:\codeblocks\projects\game_cpp\softengine\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+	"Camera.h"
+
+1724936555 d:\codeblocks\projects\game_cpp\softengine\src\graphics\texturemanager.h
+	<map>
+	"SDL.h"
+	<string>
+	"tinyxml.h"
+
+1724568248 source:d:\codeblocks\projects\game_cpp\softengine\src\map\mapparser.cpp
+	"MapParser.h"
+	"Engine.h"
+
+1723892499 d:\codeblocks\projects\game_cpp\softengine\src\map\mapparser.h
+	<map>
+	<string>
+	<iostream>
+	<memory>
+	"GameMap.h"
+	"TileLayer.h"
+	"tinyxml.h"
+
+1722684314 source:d:\codeblocks\projects\game_cpp\softengine\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1722684321 d:\codeblocks\projects\game_cpp\softengine\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1722784485 source:d:\codeblocks\projects\game_cpp\softengine\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1722781804 d:\codeblocks\projects\game_cpp\softengine\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1722684340 source:d:\codeblocks\projects\game_cpp\softengine\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1723115715 source:d:\codeblocks\projects\game_cpp\softengine\src\map\tilelayer.cpp
+	"TileLayer.h"
+	"TextureManager.h"
+
+1723897197 d:\codeblocks\projects\game_cpp\softengine\src\map\tilelayer.h
+	"Layer.h"
+	<string>
+	<sstream>
+	<algorithm>
+	<vector>
+	<iostream>
+
+1722360236 d:\codeblocks\projects\game_cpp\softengine\src\map\layer.h
+
+1722684347 source:d:\codeblocks\projects\game_cpp\softengine\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1722857383 d:\codeblocks\projects\game_cpp\softengine\src\map\gamemap.h
+	<vector>
+	"Layer.h"
+
+1723967109 source:d:\codeblocks\projects\game_cpp\softengine\src\camera\camera.cpp
+	"Camera.h"
+
+1723967348 d:\codeblocks\projects\game_cpp\softengine\src\camera\camera.h
+	"SDL.h"
+	"Point.h"
+	"Engine.h"
+	"Vector2D.h"
+
+1723280598 d:\codeblocks\projects\game_cpp\softengine\src\physics\point.h
+	<iostream>
+
+1723643979 source:d:\codeblocks\projects\game_cpp\softengine\src\collision\collisionhandler.cpp
+	"CollisionHandler.h"
+	"Engine.h"
+
+1723188410 d:\codeblocks\projects\game_cpp\softengine\src\collision\collisionhandler.h
+	"SDL.h"
+	<vector>
+	"GameMap.h"
+	"TileLayer.h"
+
+1723563627 d:\codeblocks\projects\game_cpp\softengine\src\physics\collider.h
+	"SDL.h"
+	"Camera.h"
+	"CollisionHandler.h"
+
+1723562372 source:d:\codeblocks\projects\game_cpp\softengine\src\animation\spriteanimation.cpp
+	"SpriteAnimation.h"
+	"TextureManager.h"
+
+1723478678 d:\codeblocks\projects\game_cpp\softengine\src\animation\spriteanimation.h
+	"SDL.h"
+	<string>
+	"Animation.h"
+
+1723641819 source:d:\codeblocks\projects\game_cpp\softengine\src\characters\enemy.cpp
+	"Enemy.h"
+	"Camera.h"
+	<iostream>
+	"ObjectFactory.h"
+	"CollisionHandler.h"
+
+1723487571 d:\codeblocks\projects\game_cpp\softengine\src\characters\enemy.h
+	"Collider.h"
+	"Character.h"
+	"RigidBody.h"
+	"SeqAnimation.h"
+	"SpriteAnimation.h"
+
+1723483731 d:\codeblocks\projects\game_cpp\softengine\src\animation\seqanimation.h
+	<map>
+	"SDL.h"
+	<vector>
+	<string>
+	"Animation.h"
+
+1723552509 source:d:\codeblocks\projects\game_cpp\softengine\src\animation\seqanimation.cpp
+	"SeqAnimation.h"
+	<iostream>
+	"tinyxml.h"
+	"TextureManager.h"
+
+1723641459 source:d:\codeblocks\projects\game_cpp\softengine\src\factory\objectfactory.cpp
+	"ObjectFactory.h"
+	"Enemy.h"
+	"Warrior.h"
+
+1723640864 d:\codeblocks\projects\game_cpp\softengine\src\factory\objectfactory.h
+	<map>
+	<string>
+	<memory>
+	<functional>
+	"GameObject.h"
+
+1723648222 source:d:\codeblocks\projects\game_cpp\softengine\src\states\menu.cpp
+	"Menu.h"
+	"Play.h"
+	"Input.h"
+	"Engine.h"
+
+1723645659 d:\codeblocks\projects\game_cpp\softengine\src\states\menu.h
+	"SDL.h"
+	<iostream>
+	"GameState.h"
+
+1723645539 d:\codeblocks\projects\game_cpp\softengine\src\states\gamestate.h
+
+1723957289 d:\codeblocks\projects\game_cpp\softengine\src\states\play.h
+	"Menu.h"
+	"Input.h"
+	"Enemy.h"
+	"Timer.h"
+	"Engine.h"
+	"Camera.h"
+	<iostream>
+	"GameMap.h"
+	"Warrior.h"
+	"GameState.h"
+	"MapParser.h"
+	"TileLayer.h"
+	"GameObject.h"
+	"ObjectFactory.h"
+	"TextureManager.h"
+	"CollisionHandler.h"
+
+1723891341 source:d:\codeblocks\projects\game_cpp\softengine\src\gui\roundcornerrect.cpp
+	"RoundCornerRect.h"
+	<cmath>
+
+1723891087 d:\codeblocks\projects\game_cpp\softengine\src\gui\roundcornerrect.h
+	<SDL.h>
+
+1724568007 source:d:\codeblocks\projects\game_cpp\softengine\src\states\play.cpp
+	"Play.h"
+
+1724936690 d:\codeblocks\projects\game_cpp\softengine\src\map\imagelayer.h
+	"SDL.h"
+	<string>
+	"Layer.h"
+	<iostream>
+	"SDL_image.h"
+
+1724936823 source:d:\codeblocks\projects\game_cpp\softengine\src\map\imagelayer.cpp
+	"ImageLayer.h"
+	"TextureManager.h"
+
